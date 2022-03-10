@@ -42,6 +42,9 @@ body {
     box-sizing: border-box;
 }
 
+
+/*====== header and nav bar ====  */
+
 .header {
     height: 48px;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
@@ -116,6 +119,14 @@ nav ul li a {
         top: 48px;
         padding: 0px 0 50px 0;
         margin-top: 12px;
+    }
+    .nav-bar {
+        left: -900px;
+        transition: 0.5s;
+    }
+    .nav-toggle {
+        transition: 0.5s;
+        left: 0;
     }
     nav ul {
         display: block;
