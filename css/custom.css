@@ -245,7 +245,7 @@ h4 {
         flex-direction: column;
         justify-content: space-around;
         row-gap: 1rem;
-        margin: 20px;
+        margin-top: 20px;
     }
     .card {
         width: 100%;
