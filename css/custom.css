@@ -169,6 +169,7 @@ h4 {
     display: flex;
     justify-content: space-between;
     column-gap: 40px;
+    margin-top: 40px;
 }
 
 .card {
@@ -243,6 +244,7 @@ h4 {
         flex-direction: column;
         justify-content: space-around;
         row-gap: 1rem;
+        margin: 20px;
     }
     .card {
         width: 100%;
