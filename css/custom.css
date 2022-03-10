@@ -169,22 +169,30 @@ h4 {
     justify-content: space-between;
 }
 
-.geo-nepal {
+.card {
     border-radius: 10px;
     width: 50%;
     height: 261px;
+}
+
+.geo-nepal {
     background: url("../assets/img/geonepal.jpg");
 }
 
 .geo-world {
-    border-radius: 10px;
-    width: 50%;
-    height: 261px;
     background: url("../assets/img/geoworld.jpg");
 }
 
 @media only screen and (max-device-width: 568px) {
+    main {
+        margin: 48px 20px 0 20px;
+    }
     .row {
         flex-direction: column;
+        justify-content: space-around;
+        row-gap: 1rem;
+    }
+    .card {
+        width: 100%;
     }
 }
