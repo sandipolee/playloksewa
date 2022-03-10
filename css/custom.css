@@ -217,7 +217,7 @@ h4 {
     border: none;
 }
 
-.btn:hover {
+.btn:focus {
     transition: 0.2s;
     margin-top: 3px;
     box-shadow: none;
