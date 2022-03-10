@@ -178,7 +178,7 @@ h4 {
 
 .geo-world {
     border-radius: 10px;
-    width: 516px;
+    width: 50%;
     height: 261px;
     background: url("../assets/img/geoworld.jpg");
 }
