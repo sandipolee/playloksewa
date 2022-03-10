@@ -164,9 +164,27 @@ h4 {
     font-weight: bold;
 }
 
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
 .geo-nepal {
+    border-radius: 10px;
+    width: 50%;
+    height: 261px;
+    background: url("../assets/img/geonepal.jpg");
+}
+
+.geo-world {
     border-radius: 10px;
     width: 516px;
     height: 261px;
-    background: url("../assets/img/geonepal.jpg");
+    background: url("../assets/img/geoworld.jpg");
+}
+
+@media only screen and (max-device-width: 568px) {
+    .row {
+        flex-direction: column;
+    }
 }
