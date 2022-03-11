@@ -237,6 +237,18 @@ h4 {
     background-repeat: no-repeat;
 }
 
+.bank {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.0) 0%, rgba(0, 0, 0, 0.7) 100%), url("../assets/img/money.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.history-nepal {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.0) 0%, rgba(0, 0, 0, 0.7) 100%), url("../assets/img/nepaltemple.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 @media only screen and (max-device-width: 568px) {
     main {
         margin: 48px 20px 0 20px;
