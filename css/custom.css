@@ -389,7 +389,7 @@ footer h1 {
 }
 
 .question ul li:hover {
-    border-color: #27ae5f70;
+    border-color: #27ae5f8f;
     background: #27ae5f5d;
     transition: 0.5s;
 }
