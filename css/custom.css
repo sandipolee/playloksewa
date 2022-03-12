@@ -7,6 +7,7 @@
 :root {
     --primary: #27AE60;
     --dark: #333333;
+    --offwhite: #fafafa;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,600;0,700;1,300&display=swap');
@@ -309,13 +310,12 @@ h4 {
 
 footer {
     height: 200px;
-    background: #148c48e7;
+    background: var(--offwhite);
     padding: 50px 0 0 50px;
-    color: #fff;
 }
 
 footer h1 {
-    color: #000;
+    color: var(--primary);
 }
 
 
@@ -354,26 +354,53 @@ footer h1 {
 }
 
 .question {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    padding: 0;
+    align-content: center;
+    display: block;
+    text-align: center;
 }
 
 .question h2 {
-    text-align: center;
     color: #fff;
     font-weight: 500;
 }
 
 .question ul {
+    margin: 50px auto 0 auto;
     list-style: none;
     text-align: center;
-    width: 50%;
     color: #fff;
+    width: 40%;
+}
+
+.question ul li {
+    color: #fff;
+    padding: 10px 0 10px 0;
+    border: solid 2px white;
+    margin: 20px 0 20px 0;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
 }
 
 .question button {
-    width: 100px;
+    padding: 15px 30px 15px 30px;
+    box-shadow: 0px 5px 0px 0px #148C48;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #ffffff;
+    border-radius: 3px;
+    font-weight: bold;
+    background: #27AE60;
+    outline: none;
+    border: none;
+    transition: all 0.3s ease-out;
+    margin-top: 50px;
+}
+
+.question button:hover {
+    transition: 0.2s;
+    margin-top: 53px;
+    box-shadow: none;
 }
 
 @media only screen and (max-device-width: 568px) {
