@@ -104,7 +104,7 @@ nav ul li a {
         height: 48px;
         box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
         padding: 15px 10px 0 20px;
-        z-index: 99;
+        z-index: 4;
     }
     .bars {
         float: left;
@@ -152,6 +152,7 @@ nav ul li a {
 
 main {
     margin: 48px 50px 0 50px;
+    padding-bottom: 50px;
 }
 
 h4 {
@@ -173,6 +174,7 @@ h4 {
     border-radius: 10px;
     width: 50%;
     height: 290px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px;
 }
 
 .row-area {
@@ -205,7 +207,7 @@ h4 {
 
 .btn {
     padding: 15px 30px 15px 30px;
-    box-shadow: 0px 7px 0px 0px #148C48;
+    box-shadow: 0px 5px 0px 0px #148C48;
     font-family: 'Josefin Sans', sans-serif;
     color: #ffffff;
     border-radius: 3px;
@@ -213,6 +215,7 @@ h4 {
     background: #27AE60;
     outline: none;
     border: none;
+    transition: all 0.3s ease-out;
 }
 
 .btn:hover {
@@ -272,4 +275,44 @@ h4 {
     .long-text {
         margin: 10px 0 10px 0;
     }
+}
+
+.quiz-bg {
+    opacity: 0;
+    visibility: hidden;
+    display: none;
+}
+
+.target {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    padding: 20px 20px 20px 20px;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.7);
+    opacity: 1;
+    visibility: visible;
+    transition: all opacity 500ms;
+}
+
+.quiz-screen {
+    background: green;
+    height: 40vh;
+}
+
+footer {
+    height: 200px;
+    background: #148c48e7;
+    padding: 50px 0 0 50px;
+    color: #fff;
+}
+
+footer h1 {
+    color: #000;
 }
