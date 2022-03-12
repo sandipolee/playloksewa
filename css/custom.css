@@ -409,5 +409,6 @@ footer h1 {
     }
     .question ul {
         width: 100%;
+        padding: 0;
     }
 }
