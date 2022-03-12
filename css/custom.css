@@ -343,21 +343,37 @@ footer h1 {
 .timer i {
     color: #fff;
     font-size: 2rem;
-    margin-top: 10px;
 }
 
-.timer p {
+.timer label {
     color: #fff;
     font-size: 2rem;
-    margin-left: 20px;
+    margin-left: 5px;
     margin-top: 0;
-    font-family: 'Mukta', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.question {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .question h2 {
     text-align: center;
     color: #fff;
     font-weight: 500;
+}
+
+.question ul {
+    list-style: none;
+    text-align: center;
+    width: 50%;
+    color: #fff;
+}
+
+.question button {
+    width: 100px;
 }
 
 @media only screen and (max-device-width: 568px) {
