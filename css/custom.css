@@ -354,6 +354,12 @@ footer h1 {
     font-family: 'Mukta', sans-serif;
 }
 
+.question h2 {
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+}
+
 @media only screen and (max-device-width: 568px) {
     .container {
         margin: 0 20px 0 20px;
