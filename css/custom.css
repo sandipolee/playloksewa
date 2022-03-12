@@ -383,6 +383,17 @@ footer h1 {
     cursor: pointer;
 }
 
+.question ul li:focus {
+    border-color: #27ae5fa6;
+    background: #27ae5fa6;
+}
+
+.question ul li:hover {
+    border-color: #27ae5f70;
+    background: #27ae5f5d;
+    transition: 0.5s;
+}
+
 .question button {
     padding: 15px 30px 15px 30px;
     box-shadow: 0px 5px 0px 0px #148C48;
