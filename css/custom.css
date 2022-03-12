@@ -407,4 +407,7 @@ footer h1 {
     .container {
         margin: 0 20px 0 20px;
     }
+    .question ul {
+        width: 80%;
+    }
 }
