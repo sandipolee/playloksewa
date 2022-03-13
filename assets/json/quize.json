@@ -1,264 +1,533 @@
 [{
+    "tag": "history of nepal",
+    "data": [{
 
-        "question": " UNO का लागि पहिलो नेपाली स्थायी प्रतिनिधि को हुन् ?",
-        "answers": [
-            "टंक प्रसाद आचार्य",
-            "ज्ञानचन्द्र आचार्य",
-            "मातृका प्रसाद कोइराला",
-            "ऋषिकेश शाह"
-        ],
-        "correctIndex": 3
-    },
-    {
-        "question": "What is the scientific name of a butterfly?",
-        "answers": [
-            "Apis",
-            "Coleoptera",
-            "Formicidae",
-            "Rhopalocera"
-        ],
-        "correctIndex": 3
-    },
+            "question": " UNO का लागि पहिलो नेपाली स्थायी प्रतिनिधि को हुन् ?",
+            "answers": [
+                "टंक प्रसाद आचार्य",
+                "ज्ञानचन्द्र आचार्य",
+                "मातृका प्रसाद कोइराला",
+                "ऋषिकेश शाह"
+            ],
+            "correctIndex": 3
+        },
+        {
+            "question": "What is the scientific name of a butterfly?",
+            "answers": [
+                "Apis",
+                "Coleoptera",
+                "Formicidae",
+                "Rhopalocera"
+            ],
+            "correctIndex": 3
+        },
 
-    {
-        "question": "How hot is the surface of the sun?",
-        "answers": [
-            "1,233 K",
-            "5,778 K",
-            "12,130 K",
-            "101,300 K"
-        ],
-        "correctIndex": 1
-    },
-    {
-        "question": "Who are the actors in The Internship?",
-        "answers": [
-            "Ben Stiller, Jonah Hill",
-            "Courteney Cox, Matt LeBlanc",
-            "Kaley Cuoco, Jim Parsons",
-            "Vince Vaughn, Owen Wilson"
-        ],
-        "correctIndex": 3
-    },
-    {
-        "question": "What is the capital of Spain?",
-        "answers": [
-            "Berlin",
-            "Buenos Aires",
-            "Madrid",
-            "San Juan"
-        ],
-        "correctIndex": 2
-    },
-    {
-        "question": "What are the school colors of the University of Texas at Austin?",
-        "answers": [
-            "Black, Red",
-            "Blue, Orange",
-            "White, Burnt Orange",
-            "White, Old gold, Gold"
-        ],
-        "correctIndex": 2
-    },
-    {
-        "question": "नेपाल राष्ट्र बैंकले रु. १००० दरको नोट सर्वप्रथम कहिले निष्काशन गरेको हो ?",
-        "answers": [
-            "वि.स. 2026 बैशाख 14",
-            "वि.स. 2026  माघ 17",
-            "वि.स. 2022 बैशाख 14",
-            "वि.स. 2016  फगुन 7"
-        ],
-        "correctIndex": 0
-    },
-    {
-        "question": " UNO का लागि पहिलो नेपाली स्थायी प्रतिनिधि को हुन् ?",
-        "answers": [
-            "टंक प्रसाद आचार्य",
-            "ज्ञानचन्द्र आचार्य",
-            "मातृका प्रसाद कोइराला",
-            "ऋषिकेश शाह"
-        ],
-        "correctIndex": 3
-    }, {
-        "question": "नेपाल राष्ट्र बैंकले रु. १००० दरको नोट सर्वप्रथम कहिले निष्काशन गरेको हो ?",
-        "answers": [
-            "वि.स. 2026 बैशाख 14",
-            "वि.स. 2026  माघ 17",
-            "वि.स. 2022 बैशाख 14",
-            "वि.स. 2016  फगुन 7"
-        ],
-        "correctIndex": 0
-    },
-    {
-        "question": " UNO का लागि पहिलो नेपाली स्थायी प्रतिनिधि को हुन् ?",
-        "answers": [
-            "टंक प्रसाद आचार्य",
-            "ज्ञानचन्द्र आचार्य",
-            "मातृका प्रसाद कोइराला",
-            "ऋषिकेश शाह"
-        ],
-        "correctIndex": 3
-    },
+        {
+            "question": "How hot is the surface of the sun?",
+            "answers": [
+                "1,233 K",
+                "5,778 K",
+                "12,130 K",
+                "101,300 K"
+            ],
+            "correctIndex": 1
+        },
+        {
+            "question": "Who are the actors in The Internship?",
+            "answers": [
+                "Ben Stiller, Jonah Hill",
+                "Courteney Cox, Matt LeBlanc",
+                "Kaley Cuoco, Jim Parsons",
+                "Vince Vaughn, Owen Wilson"
+            ],
+            "correctIndex": 3
+        },
+        {
+            "question": "What is the capital of Spain?",
+            "answers": [
+                "Berlin",
+                "Buenos Aires",
+                "Madrid",
+                "San Juan"
+            ],
+            "correctIndex": 2
+        },
+        {
+            "question": "What are the school colors of the University of Texas at Austin?",
+            "answers": [
+                "Black, Red",
+                "Blue, Orange",
+                "White, Burnt Orange",
+                "White, Old gold, Gold"
+            ],
+            "correctIndex": 2
+        },
+        {
+            "question": "नेपाल राष्ट्र बैंकले रु. १००० दरको नोट सर्वप्रथम कहिले निष्काशन गरेको हो ?",
+            "answers": [
+                "वि.स. 2026 बैशाख 14",
+                "वि.स. 2026  माघ 17",
+                "वि.स. 2022 बैशाख 14",
+                "वि.स. 2016  फगुन 7"
+            ],
+            "correctIndex": 0
+        },
+        {
+            "question": " UNO का लागि पहिलो नेपाली स्थायी प्रतिनिधि को हुन् ?",
+            "answers": [
+                "टंक प्रसाद आचार्य",
+                "ज्ञानचन्द्र आचार्य",
+                "मातृका प्रसाद कोइराला",
+                "ऋषिकेश शाह"
+            ],
+            "correctIndex": 3
+        }, {
+            "question": "नेपाल राष्ट्र बैंकले रु. १००० दरको नोट सर्वप्रथम कहिले निष्काशन गरेको हो ?",
+            "answers": [
+                "वि.स. 2026 बैशाख 14",
+                "वि.स. 2026  माघ 17",
+                "वि.स. 2022 बैशाख 14",
+                "वि.स. 2016  फगुन 7"
+            ],
+            "correctIndex": 0
+        },
+        {
+            "question": " UNO का लागि पहिलो नेपाली स्थायी प्रतिनिधि को हुन् ?",
+            "answers": [
+                "टंक प्रसाद आचार्य",
+                "ज्ञानचन्द्र आचार्य",
+                "मातृका प्रसाद कोइराला",
+                "ऋषिकेश शाह"
+            ],
+            "correctIndex": 3
+        },
 
-    {
-        "question": "How hot is the surface of the sun?",
-        "answers": [
-            "1,233 K",
-            "5,778 K",
-            "12,130 K",
-            "101,300 K"
-        ],
-        "correctIndex": 1
-    },
-    {
-        "question": "Who are the actors in The Internship?",
-        "answers": [
-            "Ben Stiller, Jonah Hill",
-            "Courteney Cox, Matt LeBlanc",
-            "Kaley Cuoco, Jim Parsons",
-            "Vince Vaughn, Owen Wilson"
-        ],
-        "correctIndex": 3
-    },
-    {
-        "question": "What is the capital of Spain?",
-        "answers": [
-            "Berlin",
-            "Buenos Aires",
-            "Madrid",
-            "San Juan"
-        ],
-        "correctIndex": 2
-    }, {
-        "question": " नेपाको कुल क्षत्रफल १,४७१८१ वर्ग कि. मि कहिले देखि लागु भएको हो ?",
-        "answers": [
-            "वि.स २०३६",
-            "वि.स २०३८",
-            "वि.स २०३९",
-            "वि.स २०४०"
-        ],
-        "correctIndex": 0
-    },
-    {
-        "question": "नेपालले दक्षिण एसियाको कति प्रतिशत भूभाग ओगटेको छ ?",
-        "answers": [
-            "२.४ प्रतिशत",
-            "२.८ प्रतिशत",
-            "२.९ प्रतिशत",
-            "२.७ प्रतिशत"
-        ],
-        "correctIndex": 1
-    },
+        {
+            "question": "How hot is the surface of the sun?",
+            "answers": [
+                "1,233 K",
+                "5,778 K",
+                "12,130 K",
+                "101,300 K"
+            ],
+            "correctIndex": 1
+        },
+        {
+            "question": "Who are the actors in The Internship?",
+            "answers": [
+                "Ben Stiller, Jonah Hill",
+                "Courteney Cox, Matt LeBlanc",
+                "Kaley Cuoco, Jim Parsons",
+                "Vince Vaughn, Owen Wilson"
+            ],
+            "correctIndex": 3
+        },
+        {
+            "question": "What is the capital of Spain?",
+            "answers": [
+                "Berlin",
+                "Buenos Aires",
+                "Madrid",
+                "San Juan"
+            ],
+            "correctIndex": 2
+        }, {
+            "question": " नेपाको कुल क्षत्रफल १,४७१८१ वर्ग कि. मि कहिले देखि लागु भएको हो ?",
+            "answers": [
+                "वि.स २०३६",
+                "वि.स २०३८",
+                "वि.स २०३९",
+                "वि.स २०४०"
+            ],
+            "correctIndex": 0
+        },
+        {
+            "question": "नेपालले दक्षिण एसियाको कति प्रतिशत भूभाग ओगटेको छ ?",
+            "answers": [
+                "२.४ प्रतिशत",
+                "२.८ प्रतिशत",
+                "२.९ प्रतिशत",
+                "२.७ प्रतिशत"
+            ],
+            "correctIndex": 1
+        },
 
-    {
-        "question": "How hot is the surface of the sun?",
-        "answers": [
-            "1,233 K",
-            "5,778 K",
-            "12,130 K",
-            "101,300 K"
-        ],
-        "correctIndex": 1
-    },
-    {
-        "question": "Who are the actors in The Internship?",
-        "answers": [
-            "Ben Stiller, Jonah Hill",
-            "Courteney Cox, Matt LeBlanc",
-            "Kaley Cuoco, Jim Parsons",
-            "Vince Vaughn, Owen Wilson"
-        ],
-        "correctIndex": 3
-    },
-    {
-        "question": "What is the capital of Spain?",
-        "answers": [
-            "Berlin",
-            "Buenos Aires",
-            "Madrid",
-            "San Juan"
-        ],
-        "correctIndex": 2
-    },
-    {
-        "question": "What are the school colors of the University of Texas at Austin?",
-        "answers": [
-            "Black, Red",
-            "Blue, Orange",
-            "White, Burnt Orange",
-            "White, Old gold, Gold"
-        ],
-        "correctIndex": 2
-    },
-    {
-        "question": "नेपाल राष्ट्र बैंकले रु. १००० दरको नोट सर्वप्रथम कहिले निष्काशन गरेको हो ?",
-        "answers": [
-            "वि.स. 2026 बैशाख 14",
-            "वि.स. 2026  माघ 17",
-            "वि.स. 2022 बैशाख 14",
-            "वि.स. 2016  फगुन 7"
-        ],
-        "correctIndex": 0
-    },
-    {
-        "question": " UNO का लागि पहिलो नेपाली स्थायी प्रतिनिधि को हुन् ?",
-        "answers": [
-            "टंक प्रसाद आचार्य",
-            "ज्ञानचन्द्र आचार्य",
-            "मातृका प्रसाद कोइराला",
-            "ऋषिकेश शाह"
-        ],
-        "correctIndex": 3
-    }, {
-        "question": "नेपाल राष्ट्र बैंकले रु. १००० दरको नोट सर्वप्रथम कहिले निष्काशन गरेको हो ?",
-        "answers": [
-            "वि.स. 2026 बैशाख 14",
-            "वि.स. 2026  माघ 17",
-            "वि.स. 2022 बैशाख 14",
-            "वि.स. 2016  फगुन 7"
-        ],
-        "correctIndex": 0
-    },
-    {
-        "question": " UNO का लागि पहिलो नेपाली स्थायी प्रतिनिधि को हुन् ?",
-        "answers": [
-            "टंक प्रसाद आचार्य",
-            "ज्ञानचन्द्र आचार्य",
-            "मातृका प्रसाद कोइराला",
-            "ऋषिकेश शाह"
-        ],
-        "correctIndex": 3
-    },
+        {
+            "question": "How hot is the surface of the sun?",
+            "answers": [
+                "1,233 K",
+                "5,778 K",
+                "12,130 K",
+                "101,300 K"
+            ],
+            "correctIndex": 1
+        },
+        {
+            "question": "Who are the actors in The Internship?",
+            "answers": [
+                "Ben Stiller, Jonah Hill",
+                "Courteney Cox, Matt LeBlanc",
+                "Kaley Cuoco, Jim Parsons",
+                "Vince Vaughn, Owen Wilson"
+            ],
+            "correctIndex": 3
+        },
+        {
+            "question": "What is the capital of Spain?",
+            "answers": [
+                "Berlin",
+                "Buenos Aires",
+                "Madrid",
+                "San Juan"
+            ],
+            "correctIndex": 2
+        },
+        {
+            "question": "What are the school colors of the University of Texas at Austin?",
+            "answers": [
+                "Black, Red",
+                "Blue, Orange",
+                "White, Burnt Orange",
+                "White, Old gold, Gold"
+            ],
+            "correctIndex": 2
+        },
+        {
+            "question": "नेपाल राष्ट्र बैंकले रु. १००० दरको नोट सर्वप्रथम कहिले निष्काशन गरेको हो ?",
+            "answers": [
+                "वि.स. 2026 बैशाख 14",
+                "वि.स. 2026  माघ 17",
+                "वि.स. 2022 बैशाख 14",
+                "वि.स. 2016  फगुन 7"
+            ],
+            "correctIndex": 0
+        },
+        {
+            "question": " UNO का लागि पहिलो नेपाली स्थायी प्रतिनिधि को हुन् ?",
+            "answers": [
+                "टंक प्रसाद आचार्य",
+                "ज्ञानचन्द्र आचार्य",
+                "मातृका प्रसाद कोइराला",
+                "ऋषिकेश शाह"
+            ],
+            "correctIndex": 3
+        }, {
+            "question": "नेपाल राष्ट्र बैंकले रु. १००० दरको नोट सर्वप्रथम कहिले निष्काशन गरेको हो ?",
+            "answers": [
+                "वि.स. 2026 बैशाख 14",
+                "वि.स. 2026  माघ 17",
+                "वि.स. 2022 बैशाख 14",
+                "वि.स. 2016  फगुन 7"
+            ],
+            "correctIndex": 0
+        },
+        {
+            "question": " UNO का लागि पहिलो नेपाली स्थायी प्रतिनिधि को हुन् ?",
+            "answers": [
+                "टंक प्रसाद आचार्य",
+                "ज्ञानचन्द्र आचार्य",
+                "मातृका प्रसाद कोइराला",
+                "ऋषिकेश शाह"
+            ],
+            "correctIndex": 3
+        },
 
-    {
-        "question": "How hot is the surface of the sun?",
-        "answers": [
-            "1,233 K",
-            "5,778 K",
-            "12,130 K",
-            "101,300 K"
-        ],
-        "correctIndex": 1
-    },
-    {
-        "question": "Who are the actors in The Internship?",
-        "answers": [
-            "Ben Stiller, Jonah Hill",
-            "Courteney Cox, Matt LeBlanc",
-            "Kaley Cuoco, Jim Parsons",
-            "Vince Vaughn, Owen Wilson"
-        ],
-        "correctIndex": 3
-    },
-    {
-        "question": "What is the capital of Spain?",
-        "answers": [
-            "Berlin",
-            "Buenos Aires",
-            "Madrid",
-            "San Juan"
-        ],
-        "correctIndex": 2
-    }
+        {
+            "question": "How hot is the surface of the sun?",
+            "answers": [
+                "1,233 K",
+                "5,778 K",
+                "12,130 K",
+                "101,300 K"
+            ],
+            "correctIndex": 1
+        },
+        {
+            "question": "Who are the actors in The Internship?",
+            "answers": [
+                "Ben Stiller, Jonah Hill",
+                "Courteney Cox, Matt LeBlanc",
+                "Kaley Cuoco, Jim Parsons",
+                "Vince Vaughn, Owen Wilson"
+            ],
+            "correctIndex": 3
+        },
+        {
+            "question": "What is the capital of Spain?",
+            "answers": [
+                "Berlin",
+                "Buenos Aires",
+                "Madrid",
+                "San Juan"
+            ],
+            "correctIndex": 2
+        }
 
-]
+    ]
+}, {
+    "tag": "nepal bhogal",
+    "data": [{
+
+            "question": " UNO का लागि पहिलो नेपाली स्थायी प्रतिनिधि को हुन् ?",
+            "answers": [
+                "टंक प्रसाद आचार्य",
+                "ज्ञानचन्द्र आचार्य",
+                "मातृका प्रसाद कोइराला",
+                "ऋषिकेश शाह"
+            ],
+            "correctIndex": 3
+        },
+        {
+            "question": "What is the scientific name of a butterfly?",
+            "answers": [
+                "Apis",
+                "Coleoptera",
+                "Formicidae",
+                "Rhopalocera"
+            ],
+            "correctIndex": 3
+        },
+
+        {
+            "question": "How hot is the surface of the sun?",
+            "answers": [
+                "1,233 K",
+                "5,778 K",
+                "12,130 K",
+                "101,300 K"
+            ],
+            "correctIndex": 1
+        },
+        {
+            "question": "Who are the actors in The Internship?",
+            "answers": [
+                "Ben Stiller, Jonah Hill",
+                "Courteney Cox, Matt LeBlanc",
+                "Kaley Cuoco, Jim Parsons",
+                "Vince Vaughn, Owen Wilson"
+            ],
+            "correctIndex": 3
+        },
+        {
+            "question": "What is the capital of Spain?",
+            "answers": [
+                "Berlin",
+                "Buenos Aires",
+                "Madrid",
+                "San Juan"
+            ],
+            "correctIndex": 2
+        },
+        {
+            "question": "What are the school colors of the University of Texas at Austin?",
+            "answers": [
+                "Black, Red",
+                "Blue, Orange",
+                "White, Burnt Orange",
+                "White, Old gold, Gold"
+            ],
+            "correctIndex": 2
+        },
+        {
+            "question": "नेपाल राष्ट्र बैंकले रु. १००० दरको नोट सर्वप्रथम कहिले निष्काशन गरेको हो ?",
+            "answers": [
+                "वि.स. 2026 बैशाख 14",
+                "वि.स. 2026  माघ 17",
+                "वि.स. 2022 बैशाख 14",
+                "वि.स. 2016  फगुन 7"
+            ],
+            "correctIndex": 0
+        },
+        {
+            "question": " UNO का लागि पहिलो नेपाली स्थायी प्रतिनिधि को हुन् ?",
+            "answers": [
+                "टंक प्रसाद आचार्य",
+                "ज्ञानचन्द्र आचार्य",
+                "मातृका प्रसाद कोइराला",
+                "ऋषिकेश शाह"
+            ],
+            "correctIndex": 3
+        }, {
+            "question": "नेपाल राष्ट्र बैंकले रु. १००० दरको नोट सर्वप्रथम कहिले निष्काशन गरेको हो ?",
+            "answers": [
+                "वि.स. 2026 बैशाख 14",
+                "वि.स. 2026  माघ 17",
+                "वि.स. 2022 बैशाख 14",
+                "वि.स. 2016  फगुन 7"
+            ],
+            "correctIndex": 0
+        },
+        {
+            "question": " UNO का लागि पहिलो नेपाली स्थायी प्रतिनिधि को हुन् ?",
+            "answers": [
+                "टंक प्रसाद आचार्य",
+                "ज्ञानचन्द्र आचार्य",
+                "मातृका प्रसाद कोइराला",
+                "ऋषिकेश शाह"
+            ],
+            "correctIndex": 3
+        },
+
+        {
+            "question": "How hot is the surface of the sun?",
+            "answers": [
+                "1,233 K",
+                "5,778 K",
+                "12,130 K",
+                "101,300 K"
+            ],
+            "correctIndex": 1
+        },
+        {
+            "question": "Who are the actors in The Internship?",
+            "answers": [
+                "Ben Stiller, Jonah Hill",
+                "Courteney Cox, Matt LeBlanc",
+                "Kaley Cuoco, Jim Parsons",
+                "Vince Vaughn, Owen Wilson"
+            ],
+            "correctIndex": 3
+        },
+        {
+            "question": "What is the capital of Spain?",
+            "answers": [
+                "Berlin",
+                "Buenos Aires",
+                "Madrid",
+                "San Juan"
+            ],
+            "correctIndex": 2
+        }, {
+            "question": " नेपाको कुल क्षत्रफल १,४७१८१ वर्ग कि. मि कहिले देखि लागु भएको हो ?",
+            "answers": [
+                "वि.स २०३६",
+                "वि.स २०३८",
+                "वि.स २०३९",
+                "वि.स २०४०"
+            ],
+            "correctIndex": 0
+        },
+        {
+            "question": "नेपालले दक्षिण एसियाको कति प्रतिशत भूभाग ओगटेको छ ?",
+            "answers": [
+                "२.४ प्रतिशत",
+                "२.८ प्रतिशत",
+                "२.९ प्रतिशत",
+                "२.७ प्रतिशत"
+            ],
+            "correctIndex": 1
+        },
+
+        {
+            "question": "How hot is the surface of the sun?",
+            "answers": [
+                "1,233 K",
+                "5,778 K",
+                "12,130 K",
+                "101,300 K"
+            ],
+            "correctIndex": 1
+        },
+        {
+            "question": "Who are the actors in The Internship?",
+            "answers": [
+                "Ben Stiller, Jonah Hill",
+                "Courteney Cox, Matt LeBlanc",
+                "Kaley Cuoco, Jim Parsons",
+                "Vince Vaughn, Owen Wilson"
+            ],
+            "correctIndex": 3
+        },
+        {
+            "question": "What is the capital of Spain?",
+            "answers": [
+                "Berlin",
+                "Buenos Aires",
+                "Madrid",
+                "San Juan"
+            ],
+            "correctIndex": 2
+        },
+        {
+            "question": "What are the school colors of the University of Texas at Austin?",
+            "answers": [
+                "Black, Red",
+                "Blue, Orange",
+                "White, Burnt Orange",
+                "White, Old gold, Gold"
+            ],
+            "correctIndex": 2
+        },
+        {
+            "question": "नेपाल राष्ट्र बैंकले रु. १००० दरको नोट सर्वप्रथम कहिले निष्काशन गरेको हो ?",
+            "answers": [
+                "वि.स. 2026 बैशाख 14",
+                "वि.स. 2026  माघ 17",
+                "वि.स. 2022 बैशाख 14",
+                "वि.स. 2016  फगुन 7"
+            ],
+            "correctIndex": 0
+        },
+        {
+            "question": " UNO का लागि पहिलो नेपाली स्थायी प्रतिनिधि को हुन् ?",
+            "answers": [
+                "टंक प्रसाद आचार्य",
+                "ज्ञानचन्द्र आचार्य",
+                "मातृका प्रसाद कोइराला",
+                "ऋषिकेश शाह"
+            ],
+            "correctIndex": 3
+        }, {
+            "question": "नेपाल राष्ट्र बैंकले रु. १००० दरको नोट सर्वप्रथम कहिले निष्काशन गरेको हो ?",
+            "answers": [
+                "वि.स. 2026 बैशाख 14",
+                "वि.स. 2026  माघ 17",
+                "वि.स. 2022 बैशाख 14",
+                "वि.स. 2016  फगुन 7"
+            ],
+            "correctIndex": 0
+        },
+        {
+            "question": " UNO का लागि पहिलो नेपाली स्थायी प्रतिनिधि को हुन् ?",
+            "answers": [
+                "टंक प्रसाद आचार्य",
+                "ज्ञानचन्द्र आचार्य",
+                "मातृका प्रसाद कोइराला",
+                "ऋषिकेश शाह"
+            ],
+            "correctIndex": 3
+        },
+
+        {
+            "question": "How hot is the surface of the sun?",
+            "answers": [
+                "1,233 K",
+                "5,778 K",
+                "12,130 K",
+                "101,300 K"
+            ],
+            "correctIndex": 1
+        },
+        {
+            "question": "Who are the actors in The Internship?",
+            "answers": [
+                "Ben Stiller, Jonah Hill",
+                "Courteney Cox, Matt LeBlanc",
+                "Kaley Cuoco, Jim Parsons",
+                "Vince Vaughn, Owen Wilson"
+            ],
+            "correctIndex": 3
+        },
+        {
+            "question": "What is the capital of Spain?",
+            "answers": [
+                "Berlin",
+                "Buenos Aires",
+                "Madrid",
+                "San Juan"
+            ],
+            "correctIndex": 2
+        }
+
+    ]
+}]

@@ -1,5 +1,3 @@
-document.onload(alert(loading))
-
 function toggle() {
     let nav = document.querySelector("#nav-bar")
     if (nav.classList.contains("nav-toggle")) {
