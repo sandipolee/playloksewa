@@ -318,6 +318,13 @@ footer h1 {
     color: var(--primary);
 }
 
+@media only screen and (max-device-width: 568px) {
+    footer {
+        height: 200px;
+        padding: 20px 0 0 20px;
+    }
+}
+
 
 /* play quize screen */
 
