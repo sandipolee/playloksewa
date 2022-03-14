@@ -363,8 +363,11 @@ footer h1 {
 .question {
     padding: 0;
     align-content: center;
-    display: block;
     text-align: center;
+}
+
+.question label {
+    float: left;
 }
 
 .question h2 {
@@ -396,6 +399,12 @@ footer h1 {
 }
 
 .question ul li:hover {
+    border-color: #27ae5f8f;
+    background: #27ae5f5d;
+    transition: 0.5s;
+}
+
+.activequiz {
     border-color: #27ae5f8f;
     background: #27ae5f5d;
     transition: 0.5s;
