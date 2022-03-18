@@ -504,6 +504,10 @@
     }
     
     @media only screen and (max-device-width: 568px) {
+        .result-bars {
+            display: flex;
+            justify-content: center;
+        }
         svg {
             position: absolute;
             top: 170px;
