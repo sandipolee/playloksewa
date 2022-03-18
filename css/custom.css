@@ -490,9 +490,9 @@
     /* circle processbar */
     
     svg {
-        position: absolute;
-        top: 170px;
-        left: 50px;
+        position: relative;
+        top: -160px;
+        left: 0;
     }
     
     circle {
@@ -509,8 +509,8 @@
             justify-content: center;
         }
         svg {
-            position: absolute;
-            top: 170px;
-            left: 107px;
+            position: relative;
+            top: -160px;
+            left: 0;
         }
     }
