@@ -25,7 +25,7 @@ function pad(val) {
 let currentQuestion = 0;
 let score = 0;
 let question_count = 1;
-let No_Question = 11;
+let No_Question = 10;
 let correctans_count = 0;
 let Wrongans_count = 0;
 let users_answers = [];
@@ -91,7 +91,8 @@ function next() {
     getuseranswer();
     let userAnswer = document.querySelector(".activequiz").id;
     users_answers.push(userAnswer);
-    if (question_count === No_Question) {
+    allquestions.push(currentQuestion);
+    if (question_count > No_Question) {
         let workarea = document.querySelector(".question");
         document.querySelector("#nextbtn").classList.add("disabled")
         workarea.innerHTML = workarea.innerHTML + `<button class="sumbit" onclick="submit()">Sumbit</button>`;
@@ -122,6 +123,13 @@ function getuseranswer() {
     let userAnswer = document.querySelector(".activequiz").id;
 }
 
+
+
 function submit() {
-    alert("submit")
+    let jsonallquestion = JSON.stringify(allquestions);
+    let users_answersP = JSON.stringify(users_answers);
+    localStorage.setItem("users_answer", users_answersP);
+    localStorage.setItem("all_question", jsonallquestion);
+    location.href = "result.html"
+
 }
