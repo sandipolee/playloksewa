@@ -509,11 +509,22 @@
     
     circle {
         fill: none;
-        stroke: skyblue;
         stroke-width: 20px;
         stroke-dasharray: 472;
         stroke-dashoffset: 472;
         animation: ame 2s linear forwards;
+    }
+    
+    #sky {
+        stroke: skyblue;
+    }
+    
+    #scucess {
+        stroke: var(--primary);
+    }
+    
+    #danger {
+        stroke: var(--danger);
     }
     
     @media only screen and (max-device-width: 568px) {
