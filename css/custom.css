@@ -459,6 +459,8 @@
     
     .result-bars {
         margin-top: 50px;
+        display: flex;
+        justify-content: space-around;
     }
     
     .outer {
@@ -507,6 +509,10 @@
     @media only screen and (max-device-width: 568px) {
         .result-bars {
             display: flex;
+            justify-content: center;
+        }
+        .result-bars {
+            flex-direction: column;
             justify-content: center;
         }
         svg {
