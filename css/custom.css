@@ -497,6 +497,16 @@
         left: 0;
     }
     
+    #title {
+        position: relative;
+        margin: 0;
+        padding: 0;
+        top: -120px;
+        font-weight: 600;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    
     circle {
         fill: none;
         stroke: skyblue;
@@ -507,17 +517,18 @@
     }
     
     @media only screen and (max-device-width: 568px) {
-        .result-bars {
-            display: flex;
-            justify-content: center;
+        .circul-bar {
+            margin: auto;
+            width: fit-content;
         }
         .result-bars {
-            flex-direction: column;
+            justify-content: center;
+            display: block;
             justify-content: center;
         }
         svg {
             position: relative;
-            top: -160px;
+            transform: translateY(0px);
             left: 0;
         }
     }
