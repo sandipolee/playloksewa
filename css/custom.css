@@ -499,8 +499,9 @@
         fill: none;
         stroke: skyblue;
         stroke-width: 20px;
-        stroke-dasharray: 250;
-        stroke-dashoffset: 0;
+        stroke-dasharray: 472;
+        stroke-dashoffset: 472;
+        animation: ame 2s linear forwards;
     }
     
     @media only screen and (max-device-width: 568px) {
@@ -512,5 +513,11 @@
             position: relative;
             top: -160px;
             left: 0;
+        }
+    }
+    
+    @keyframes ame {
+        100% {
+            stroke-dashoffset: 156;
         }
     }
