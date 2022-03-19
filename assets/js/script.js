@@ -12,5 +12,5 @@ function playquiz(cIndrex) {
 }
 
 function vanishdiv() {
-    querySelector("#loding").style.display = "none";
+    document.querySelector("#loding").style.display = "none";
 }
