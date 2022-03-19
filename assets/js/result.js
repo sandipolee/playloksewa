@@ -5,7 +5,7 @@ let quiz_data = "./assets/json/quize.json";
 let score = 0;
 let right = 0;
 let wrong = 0;
-
+let tagline;
 
 
 let questionArray = JSON.parse(all_question);
@@ -19,6 +19,8 @@ function fetchData() {
             return response.json();
         })
         .then(function(data) {
+            tagline = JSON.stringify(data[tag]["tag"]);
+            console.log(tagline)
             for (let i = 0; i < 10; i++) {
                 let question_index = questionArray[i];
                 let tag_Data = data[tag]["data"];
@@ -39,3 +41,5 @@ function fetchData() {
         });
 }
 fetchData();
+
+document.querySelector("#text").innerHTML = "Category /" + tagline + "/ Result"

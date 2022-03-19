@@ -46,6 +46,32 @@
         box-sizing: border-box;
         font-family: 'Josefin Sans', sans-serif;
     }
+    /*--------------------------------------------------------------
+# loding screen
+--------------------------------------------------------------*/
+    
+    #loding {
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        background: #f8f8f8;
+        z-index: 9999;
+        margin: 0;
+        top: 0;
+        left: 0;
+        text-align: center;
+        padding-top: 45vh;
+        display: none;
+    }
+    
+    .logo {
+        margin: auto;
+    }
+    
+    #loding h2 {
+        font-size: 2rem;
+        color: var(--dark);
+    }
     /*====== header and nav bar ====  */
     
     .header {
@@ -58,6 +84,7 @@
         top: 0;
         display: flex;
         justify-content: space-between;
+        z-index: 99;
     }
     
     .bars {

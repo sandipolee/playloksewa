@@ -10,3 +10,7 @@ function playquiz(cIndrex) {
     sessionStorage.setItem("cIndex", cIndrex);
     location.href = "./play.html";
 }
+
+function vanishdiv() {
+    querySelector("#loding").style.display = "none";
+}

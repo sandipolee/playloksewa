@@ -12,7 +12,11 @@
     <title>play</title>
 </head>
 
-<body>
+<body onload="vanishdiv()">
+    <div id="loding">
+        <img class="logo" src="./assets/img/playloksewa.png" alt="">
+        <h2>LODING...</h2>
+    </div>
     <section id="quiz-screen">
         <div class="container">
             <div class="timer">
@@ -39,9 +43,9 @@
                 <button id="nextbtn" onclick="next()"> Next</button>
             </div>
         </div>
-
     </section>
     <script src="./assets/js/quizscreen.js"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>
