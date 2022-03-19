@@ -19,8 +19,8 @@ function fetchData() {
             return response.json();
         })
         .then(function(data) {
-            tagline = JSON.stringify(data[tag]["tag"]);
-            console.log(tagline)
+            tagline = data[tag]["tag"];
+            document.querySelector("#text").innerHTML = "Category /" + tagline + "/ Result"
             for (let i = 0; i < 10; i++) {
                 let question_index = questionArray[i];
                 let tag_Data = data[tag]["data"];
@@ -35,11 +35,10 @@ function fetchData() {
                     wrong = wrong + 1;
                 }
             }
+
             console.log(score);
             console.log(right / 10 * 100);
             console.log(wrong / 10 * 100 + "%");
         });
 }
 fetchData();
-
-document.querySelector("#text").innerHTML = "Category /" + tagline + "/ Result"

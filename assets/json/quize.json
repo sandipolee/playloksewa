@@ -9,76 +9,76 @@
                 "झापा रदाचुला ",
                 "ताप्लेजुङ र दाचुला"
             ],
-            "correctIndex": 0
+            "correctIndex": 3
         },
         {
-            "question": "What is the scientific name of a butterfly?",
+            "question": "नेपालले दक्षिण एसियाको कति प्रतिशत भूभाग ओगटेको छ ?",
             "answers": [
-                "Apis",
-                "Coleoptera",
-                "Formicidae",
-                "Rhopalocera"
+                "२.४ प्रतिशत",
+                "२.८ प्रतिशत",
+                "२.९ प्रतिशत",
+                "२.७ प्रतिशत"
             ],
-            "correctIndex": 3
+            "correctIndex": 1
         },
 
         {
-            "question": "How hot is the surface of the sun?",
+            "question": "पहाडी प्रदेशमा पर्ने जिल्लाहरूको सङ्ख्या कति छ ?",
             "answers": [
-                "1,233 K",
-                "5,778 K",
-                "12,130 K",
-                "101,300 K"
+                "३० वय",
+                "३२ वटा",
+                "३५ वटा",
+                "४१ वटा"
+            ],
+            "correctIndex": 2
+        },
+        {
+            "question": "तराई प्रदेशमा पर्ने जिल्लाहरूको सङ्ख्या कति छ ?",
+            "answers": [
+                "१९ वय",
+                "१५ वटा",
+                "१८ वटा",
+                "२१ वय"
+            ],
+            "correctIndex": 3
+        },
+        {
+            "question": "चीनको सीमानासाग मात्र जोडिएका नेपालका प्रदेश कति छन् ?",
+            "answers": [
+                "१",
+                "४",
+                "५",
+                "3"
+            ],
+            "correctIndex": 0
+        },
+        {
+            "question": "प्रदेश नं. १ को राजधानी विराटनगर कहिले भयो ?",
+            "answers": [
+                "२०७६ वैशाख १३",
+                "२०७६ वैशाख २३",
+                "२०७६ जेठ २३",
+                "२०७६ जेठ २"
             ],
             "correctIndex": 1
         },
         {
-            "question": "Who are the actors in The Internship?",
+            "question": "भारतसाग मात्रै सीमाना जोडिएका कतिवटा जिल्लाहरू छन् ?",
             "answers": [
-                "Ben Stiller, Jonah Hill",
-                "Courteney Cox, Matt LeBlanc",
-                "Kaley Cuoco, Jim Parsons",
-                "Vince Vaughn, Owen Wilson"
-            ],
-            "correctIndex": 3
-        },
-        {
-            "question": "What is the capital of Spain?",
-            "answers": [
-                "Berlin",
-                "Buenos Aires",
-                "Madrid",
-                "San Juan"
+                "२४ वटा",
+                "२६ वटा",
+                "२५ वटा",
+                "२० वटा"
             ],
             "correctIndex": 2
         },
         {
-            "question": "What are the school colors of the University of Texas at Austin?",
+            "question": "प्रदेश नं ३ को नाम बागमती प्रदेशमा नामाङ्करण कहिले गरियो ?",
             "answers": [
-                "Black, Red",
-                "Blue, Orange",
-                "White, Burnt Orange",
-                "White, Old gold, Gold"
-            ],
-            "correctIndex": 2
-        },
-        {
-            "question": "नेपाल राष्ट्र बैंकले रु. १००० दरको नोट सर्वप्रथम कहिले निष्काशन गरेको हो ?",
-            "answers": [
-                "वि.स. 2026 बैशाख 14",
-                "वि.स. 2026  माघ 17",
-                "वि.स. 2022 बैशाख 14",
-                "वि.स. 2016  फगुन 7"
-            ],
-            "correctIndex": 0
-        },
-        {
-            "question": " UNO का लागि पहिलो नेपाली स्थायी प्रतिनिधि को हुन् ?",
-            "answers": [
-                "टंक प्रसाद आचार्य",
-                "ज्ञानचन्द्र आचार्य",
-                "मातृका प्रसाद कोइराला",
-                "ऋषिकेश शाह"
+                "२०७६ मङसिर २७",
+                "२०७६ पौष ७",
+                "२०७६ पौष २३",
+                "२०७६ पौष २७"
             ],
             "correctIndex": 3
         }, {
@@ -265,7 +265,7 @@
 
     ]
 }, {
-    "tag": "nepal bhogal",
+    "tag": "World bhogal",
     "data": [{
 
             "question": " UNO का लागि पहिलो नेपाली स्थायी प्रतिनिधि को हुन् ?",
