@@ -25,24 +25,52 @@ function fetchData() {
                 let question_index = questionArray[i];
                 let tag_Data = data[tag]["data"];
                 let correct_answer = tag_Data[question_index]["correctIndex"];
-                let user_answers = tag_Data[question_index]["answers"][useransrArray[i]]
-
-                if (correct_answer === user_answers) {
+                let user_answers = useransrArray[i]
+                if (correct_answer == user_answers) {
                     score = score + 2;
-                    right = right++;
-                    console.log("in this")
+                    right = right + 1;
+
                 } else {
                     wrong = wrong + 1;
                 }
             }
+            // for score
+            document.querySelector("#score-number").innerHTML = `${score}/20`;
+            // for right
+            document.querySelector("#right-number").innerHTML = `${right / 10 * 100}%`;
+            // for wrong
+            document.querySelector("#wrong-number").innerHTML = `${wrong / 10 * 100}%`;
 
-            console.log(score);
-            console.log(right / 10 * 100);
+            console.log(right / 10 * 100 + "%");
             console.log(wrong / 10 * 100 + "%");
         });
 }
 fetchData();
 
 function showResult() {
-    alert("chicked")
+    fetch(quiz_data)
+        .then(function(response) {
+            return response.json();
+        })
+        .then(function(data) {
+            tagline = data[tag]["tag"];
+            document.querySelector("#text").innerHTML = "Category /" + tagline + "/ Result"
+            for (let i = 0; i < 10; i++) {
+                let question_index = questionArray[i];
+                let tag_Data = data[tag]["data"];
+                let correct_answer = tag_Data[question_index]["correctIndex"];
+                let user_answers = tag_Data[question_index]["answers"][useransrArray[i]]
+                let question = tag_Data[questionArray[i]]["question"];
+                console.log(question);
+                console.log(correct_answer);
+
+                // for (let j = 0; j < 4; j++) {
+                //     let anser = tag_Data[questionArray[i]]["answers"][j];
+                //     console.log(anser);
+                // }
+
+            }
+
+        });
+
 }
