@@ -42,3 +42,7 @@ function fetchData() {
         });
 }
 fetchData();
+
+function showResult() {
+    alert("chicked")
+}
