@@ -61,13 +61,26 @@ function showResult() {
                 let correct_answer = tag_Data[question_index]["correctIndex"];
                 let user_answers = tag_Data[question_index]["answers"][useransrArray[i]]
                 let question = tag_Data[questionArray[i]]["question"];
-                console.log(question);
-                console.log(correct_answer);
+                // console.log(question);
+                // console.log(correct_answer);
+                let anser_area = document.querySelector("#checkans");
+                anser_area.innerHTML = anser_area.innerHTML + `<h2 id="qesdiv"> ${question}</h2>`
+                for (let j = 0; j < 4; j++) {
+                    let anser = tag_Data[questionArray[i]]["answers"][j];
+                    let right_answer = tag_Data[questionArray[i]]["answers"][correct_answer];
 
-                // for (let j = 0; j < 4; j++) {
-                //     let anser = tag_Data[questionArray[i]]["answers"][j];
-                //     console.log(anser);
-                // }
+                    if (user_answers == right_answer && anser == right_answer) {
+                        anser_area.innerHTML = anser_area.innerHTML + `<p class="answer sucess "> **good** ${anser}</p>`
+                    } else if (anser == user_answers) {
+                        anser_area.innerHTML = anser_area.innerHTML + `<p class="answer danger ">**bad**${anser}</p>`
+
+                    } else if (anser == right_answer) {
+                        anser_area.innerHTML = anser_area.innerHTML + `<p class="answer sucess "> ${anser}</p>`
+
+                    } else { anser_area.innerHTML = anser_area.innerHTML + `<p class="answer" > ${anser}</p>` }
+
+
+                }
 
             }
 
