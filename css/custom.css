@@ -586,6 +586,7 @@
         font-weight: 600;
         cursor: pointer;
         text-align: center;
+        list-style: none;
     }
     
     .danger {
